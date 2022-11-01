@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="function_definition" id="V[wOR(nb_./o$y@,4^.|" x="488" y="-37"><mutation name="allumer" functionid=";OuE)Lo/I]Lx:`/-wlgV"></mutation><field name="function_name">allumer</field><statement name="STACK"><block type="device_show_leds" id="Pr7IV}$Wt]F]BX[UN4Gi"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="controls_if" id="{_rziI5FA)j=f_;f=a(M"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="sR!w28uj10:FhFd=hJ^%"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_show_leds" id="}~{8Jk1#pjuDZkiD_NMW"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></next></block></statement></block><block type="device_forever" id="L9SV,S;ta3wsZnoqANE7" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="(_RtUT5]%p6|8~ieDXkU"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="XA$jJw^9K3#=~n1bI-Pb"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="function_call" id="cV8w$(qc;f0~KFP?Z``R"><mutation name="allumer" functionid=";OuE)Lo/I]Lx:`/-wlgV"></mutation></block></statement></block></statement></block></xml>
