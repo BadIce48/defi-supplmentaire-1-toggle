@@ -1,13 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="function_definition" id="V[wOR(nb_./o$y@,4^.|" x="488" y="-37"><mutation name="allumer" functionid=";OuE)Lo/I]Lx:`/-wlgV"></mutation><field name="function_name">allumer</field><statement name="STACK"><block type="device_show_leds" id="Pr7IV}$Wt]F]BX[UN4Gi"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="A9.MI^!gIVB@RS!2Lg%G">lumiere</variable></variables><block type="device_button_event" id="R^U4qzd0!Xi?H.^?(91}" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id=");Ut,5Y34o?;I8TJAXG@"><field name="VAR" id="A9.MI^!gIVB@RS!2Lg%G">lumiere</field><value name="VALUE"><shadow type="math_number" id="^TdQ51/B0=F7lOY2N8Ci"><field name="NUM">0</field></shadow><block type="logic_negate" id="|9v6}hJ,-vLCDWOI|#zS"><value name="BOOL"><block type="variables_get" id="Xkyyl$@am#w|{Eqr2BX("><field name="VAR" id="A9.MI^!gIVB@RS!2Lg%G">lumiere</field></block></value></block></value><next><block type="controls_if" id="[828n.q6RvyxY*}-[T7p"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="G@Lo#QmvK[E#`e-(kunr"><field name="BOOL">TRUE</field></shadow><block type="variables_get" id="rFa3f?u_S/n{xCWrpZVw"><field name="VAR" id="A9.MI^!gIVB@RS!2Lg%G">lumiere</field></block></value><statement name="DO0"><block type="device_show_leds" id="3Adrjfk-ctvCb?j9($cK"><field name="LEDS">`
         # # # # # 
         # # # # # 
         # # # # # 
         # # # # # 
         # # # # #
-        `</field><next><block type="controls_if" id="{_rziI5FA)j=f_;f=a(M"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="sR!w28uj10:FhFd=hJ^%"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_show_leds" id="}~{8Jk1#pjuDZkiD_NMW"><field name="LEDS">`
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . .
-        `</field></block></statement></block></next></block></statement></block><block type="device_forever" id="L9SV,S;ta3wsZnoqANE7" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="(_RtUT5]%p6|8~ieDXkU"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="XA$jJw^9K3#=~n1bI-Pb"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="function_call" id="cV8w$(qc;f0~KFP?Z``R"><mutation name="allumer" functionid=";OuE)Lo/I]Lx:`/-wlgV"></mutation></block></statement></block></statement></block></xml>
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="+E^4^)~Lg0I_PmQjm:Uw"></block></statement></block></next></block></statement></block></xml>

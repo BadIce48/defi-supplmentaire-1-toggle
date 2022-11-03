@@ -1,23 +1,15 @@
-function allumer () {
-    basic.showLeds(`
-        # # # # #
-        # # # # #
-        # # # # #
-        # # # # #
-        # # # # #
-        `)
-    if (input.buttonIsPressed(Button.A)) {
+let lumiere = false
+input.onButtonPressed(Button.A, function () {
+    lumiere = !(lumiere)
+    if (lumiere) {
         basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
             `)
-    }
-}
-basic.forever(function () {
-    if (input.buttonIsPressed(Button.A)) {
-        allumer()
+    } else {
+        basic.clearScreen()
     }
 })
